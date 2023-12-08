@@ -3,7 +3,7 @@ import usersRoutes from "./Routes/userRoutes"
 import tasksRoutes from "./Routes/toDoRoutes"
 import * as dotenv from "dotenv"
 import mongoose from "mongoose"
-dotenv.config({path:__dirname+"/../src/.env"})
+dotenv.config({path:__dirname+"/../.env"})
 
 const port=process.env.PORT
 
